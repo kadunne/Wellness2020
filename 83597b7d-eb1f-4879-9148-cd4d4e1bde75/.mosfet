@@ -1,0 +1,8 @@
+{
+  "layout": "Grid",
+  "rdbmsId": "83597b7d-eb1f-4879-9148-cd4d4e1bde75",
+  "hidden": false,
+  "insightName": "Show first 500 records from WELLNESS",
+  "recipe": "AddPanel(0);Panel(0)|SetPanelView(\"visualization\");CreateFrame(grid).as([FRAME]);Database(\"95a1993a-00a7-475e-aa30-8a7b662c12a5\") | SelectTable(WELLNESS) | Limit(500) | Import();Frame() | QueryAll() | AutoTaskOptions(panel\u003d[\"0\"], layout\u003d[\"GRID\"]) | Collect(500);",
+  "engineId": "95a1993a-00a7-475e-aa30-8a7b662c12a5"
+}
