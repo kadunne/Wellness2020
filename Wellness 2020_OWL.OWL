@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<domain>noData</domain>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">WELLNESS</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/WELLNESS_UNIQUE_ROW_ID/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/WELLNESS_UNIQUE_ROW_ID/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/WELLNESS_UNIQUE_ROW_ID/WELLNESS">
+	<Class rdf:resource="TYPE:LONG"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/WELLNESS_UNIQUE_ROW_ID/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">WELLNESS_UNIQUE_ROW_ID</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Date/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/WELLNESS">
+	<Class rdf:resource="TYPE:DATE"/>
+	<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:yyyy-MM-dd"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Date/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Date</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Exercise_Description/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Exercise_Description/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Exercise_Description/WELLNESS">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Exercise_Description/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Exercise_Description</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Minutes_Exercised/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Minutes_Exercised/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Minutes_Exercised/WELLNESS">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Minutes_Exercised/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Minutes_Exercised</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Participant_Name/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Participant_Name/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Participant_Name/WELLNESS">
+	<Class rdf:resource="TYPE:VARCHAR(2000)"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Participant_Name/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Participant_Name</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Steps/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Steps/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Steps/WELLNESS">
+	<Class rdf:resource="TYPE:INT"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Steps/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Steps</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Water_Consumed_Oz/WELLNESS">
+	<rdf:type rdf:resource="http://semoss.org/ontologies/Relation/Contains"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/WELLNESS">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Water_Consumed_Oz/WELLNESS"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Water_Consumed_Oz/WELLNESS">
+	<Class rdf:resource="TYPE:DOUBLE"/>
+	<Pixel xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Water_Consumed_Oz/WELLNESS"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/">Water_Consumed_Oz</Conceptual>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2020:01:03 00:34:15</TIME>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/WELLNESS_UNIQUE_ROW_ID/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Exercise_Description/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Minutes_Exercised/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Participant_Name/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Steps/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Water_Consumed_Oz/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">0</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/WELLNESS_UNIQUE_ROW_ID/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Date/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Exercise_Description/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Minutes_Exercised/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Participant_Name/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Steps/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Water_Consumed_Oz/WELLNESS">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>

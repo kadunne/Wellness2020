@@ -1,0 +1,9 @@
+2020-01-03 15:16:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'' (WELLNESS: WELLNESS_UNIQUE_ROW_ID BIGINT DEFAULT (NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_02481768_75C1_4359_BA8C_4B59A16C9DFD) NOT NULL NULL_TO_DEFAULT SEQUENCE PUBLIC.SYSTEM_SEQUENCE_02481768_75C1_4359_BA8C_4B59A16C9DFD)"; SQL statement:
+INSERT INTO WELLNESS (Participant_Name, Date, Steps, Minutes_Exercised, Water_Consumed_Oz, Exercise_Description, WELLNESS_UNIQUE_ROW_ID) VALUES ('Kaia', '2020-01-01', 3555, 34, 43, 'Description', '') -- ('Kaia', '2020-01-01', 3555, 34, 43, 'Description', '') [22018-195]
+2020-01-03 15:17:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'' (WELLNESS: WELLNESS_UNIQUE_ROW_ID BIGINT DEFAULT (NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_02481768_75C1_4359_BA8C_4B59A16C9DFD) NOT NULL NULL_TO_DEFAULT SEQUENCE PUBLIC.SYSTEM_SEQUENCE_02481768_75C1_4359_BA8C_4B59A16C9DFD)"; SQL statement:
+INSERT INTO WELLNESS (Participant_Name, Date, Steps, Minutes_Exercised, Water_Consumed_Oz, Exercise_Description, WELLNESS_UNIQUE_ROW_ID) VALUES ('kaia', '1900-01-01', 34, 4444, 444, 'This is a workout', '') -- ('kaia', '1900-01-01', 34, 4444, 444, 'This is a workout', '') [22018-195]
+2020-01-03 15:17:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "'' (WELLNESS: WELLNESS_UNIQUE_ROW_ID BIGINT DEFAULT (NEXT VALUE FOR PUBLIC.SYSTEM_SEQUENCE_02481768_75C1_4359_BA8C_4B59A16C9DFD) NOT NULL NULL_TO_DEFAULT SEQUENCE PUBLIC.SYSTEM_SEQUENCE_02481768_75C1_4359_BA8C_4B59A16C9DFD)"; SQL statement:
+INSERT INTO WELLNESS (Participant_Name, Date, Steps, Minutes_Exercised, Water_Consumed_Oz, Exercise_Description, WELLNESS_UNIQUE_ROW_ID) VALUES ('Kaia', '2020-01-10', 3333, 34, 33, 'I did not work out', '') -- ('Kaia', '2020-01-10', 3333, 34, 33, 'I did not work out', '') [22018-195]
